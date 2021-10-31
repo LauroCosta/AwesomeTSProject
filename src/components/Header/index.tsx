@@ -22,6 +22,6 @@ const style = StyleSheet.create({
   },
   Subtitle: {
     color: 'black',
-    fontSize: 15,
+    fontSize: 25,
   },
 });
