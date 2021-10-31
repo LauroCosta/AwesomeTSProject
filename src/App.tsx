@@ -1,11 +1,11 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StyleSheet} from 'react-native';
 import Header from './components/Header';
 
 const App: React.FC = () => {
   return (
     <SafeAreaView style={style.App}>
-      <Header />
+      <Header name="Lauro" title="React native na veia!" />
     </SafeAreaView>
   );
 };
