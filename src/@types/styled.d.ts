@@ -22,7 +22,7 @@ declare module 'styled-components' {
   }
 
   export interface TypographyProps {
-    fontfamily?: string;
+    fontfamily: string;
     fontSize: number;
   }
   export interface Typography {
