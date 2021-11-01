@@ -1,20 +1,17 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import {ThemeProvider} from 'styled-components';
 import Header from './components/Header';
+import useAppearance from './hooks/useAppearence';
+import {Container} from './style';
 
 const App: React.FC = () => {
+  const {theme} = useAppearance();
   return (
-    <SafeAreaView style={style.App}>
-      <Header />
-    </SafeAreaView>
+    <ThemeProvider theme={theme}>
+      <Container>
+        <Header />
+      </Container>
+    </ThemeProvider>
   );
 };
 export default App;
-
-const style = StyleSheet.create({
-  App: {
-    flex: 1,
-    backgroundColor: '#132456',
-    justifyContent: 'center',
-  },
-});
