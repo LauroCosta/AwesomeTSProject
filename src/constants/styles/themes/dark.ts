@@ -9,7 +9,7 @@ export const themeDark: DefaultTheme = {
       onMain: Colors.white,
     },
     secondary: {
-      main: Colors.brand02,
+      main: Colors.brand01,
       onMain: Colors.white,
     },
     error: {
