@@ -22,7 +22,7 @@ export const themeDark: DefaultTheme = {
     },
     surface: {
       main: Colors.white,
-      onMain: Colors.neutrais,
+      onMain: Colors.white,
     },
   },
 
