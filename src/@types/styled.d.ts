@@ -1,7 +1,6 @@
 import 'styled-components';
 
 declare module 'styled-components' {
-
   export interface Spacing {
     ty: number;
     xs: number;

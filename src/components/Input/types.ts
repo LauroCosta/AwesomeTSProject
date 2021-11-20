@@ -1,6 +1,6 @@
 import {TextInputProps} from 'react-native';
 import {ColorsType} from 'styled-components';
-import {NameIconTypes} from '../../constants/icons';
+import {NameIconTypes} from '~/constants/icons';
 
 export type IconPosition = 'left' | 'right';
 
