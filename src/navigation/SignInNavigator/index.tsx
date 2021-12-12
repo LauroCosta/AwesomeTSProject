@@ -5,7 +5,7 @@ import Login from '~/screen/SignIn/Login';
 import OnBoarding from '~/screen/SignIn/OnBoarding';
 import SignUp from '~/screen/SignIn/SignUp';
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator<SignInStackParamList>();
 
 const SignInNavigator = () => {
   return (
